@@ -156,7 +156,7 @@ if respon == '3':
         ssh = paramiko.SSHClient() #create SSH client using Paramiko
         ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy()) #add server hostkey
 
-        #Opens wordlist
+        #Opens wordlist and read words as passwords
         with open(wordlist_path) as file:
             passwords = file.read().splitlines()
 
