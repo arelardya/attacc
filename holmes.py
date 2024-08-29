@@ -191,7 +191,6 @@ if choice == '3':
             print(f"No valid credentials found in {wordlist_path}")
 
     def main():
-        os.system('clear')
 
         try:
             # Ask user input for target, username, wordlist path
