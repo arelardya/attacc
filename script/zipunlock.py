@@ -3,7 +3,7 @@ from pathlib import Path
 from tqdm import tqdm
 
 wordlist_path = Path(input('Enter path to the wordlist file > '))
-zip_path = Path(input('Enter path to zipped file > '))
+zip_path = Path(input('Enter path to zipped file      > '))
 
 def crack():
     zip_file = ZipFile(zip_path)
